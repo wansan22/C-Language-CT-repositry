@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TreeCT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23e9978ef0b5f86a39d9452ddd80a50f6e2f41f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12e6f74db88059fb7afbfb3aab6d7f1b9f2a1ae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TreeCT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TreeCT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
