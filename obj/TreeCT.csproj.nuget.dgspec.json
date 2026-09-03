@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fomin\\Downloads\\treeproject\\TreeCT\\TreeCT.csproj": {}
+    "C:\\Users\\fomin\\Downloads\\treeproject\\treect\\TreeCT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fomin\\Downloads\\treeproject\\TreeCT\\TreeCT.csproj": {
+    "C:\\Users\\fomin\\Downloads\\treeproject\\treect\\TreeCT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fomin\\Downloads\\treeproject\\TreeCT\\TreeCT.csproj",
+        "projectUniqueName": "C:\\Users\\fomin\\Downloads\\treeproject\\treect\\TreeCT.csproj",
         "projectName": "TreeCT",
-        "projectPath": "C:\\Users\\fomin\\Downloads\\treeproject\\TreeCT\\TreeCT.csproj",
+        "projectPath": "C:\\Users\\fomin\\Downloads\\treeproject\\treect\\TreeCT.csproj",
         "packagesPath": "C:\\Users\\fomin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fomin\\Downloads\\treeproject\\TreeCT\\obj\\",
+        "outputPath": "C:\\Users\\fomin\\Downloads\\treeproject\\treect\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fomin\\AppData\\Roaming\\NuGet\\NuGet.Config"
