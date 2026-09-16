@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\fomin\\Downloads\\sw\\C-Language-CT-repositry\\TreeCT.csproj": {}
+    "C:\\Users\\fomin\\Downloads\\sw\\c-language-ct-repositry\\TreeCT.csproj": {}
   },
   "projects": {
-    "c:\\Users\\fomin\\Downloads\\sw\\C-Language-CT-repositry\\TreeCT.csproj": {
+    "C:\\Users\\fomin\\Downloads\\sw\\c-language-ct-repositry\\TreeCT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\fomin\\Downloads\\sw\\C-Language-CT-repositry\\TreeCT.csproj",
+        "projectUniqueName": "C:\\Users\\fomin\\Downloads\\sw\\c-language-ct-repositry\\TreeCT.csproj",
         "projectName": "TreeCT",
-        "projectPath": "c:\\Users\\fomin\\Downloads\\sw\\C-Language-CT-repositry\\TreeCT.csproj",
+        "projectPath": "C:\\Users\\fomin\\Downloads\\sw\\c-language-ct-repositry\\TreeCT.csproj",
         "packagesPath": "C:\\Users\\fomin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\fomin\\Downloads\\sw\\C-Language-CT-repositry\\obj\\",
+        "outputPath": "C:\\Users\\fomin\\Downloads\\sw\\c-language-ct-repositry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fomin\\AppData\\Roaming\\NuGet\\NuGet.Config"

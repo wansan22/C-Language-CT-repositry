@@ -13,3 +13,11 @@ C:\Users\fomin\Downloads\treeproject\treect\obj\Debug\net10.0\refint\TreeCT.dll
 C:\Users\fomin\Downloads\treeproject\treect\obj\Debug\net10.0\TreeCT.pdb
 C:\Users\fomin\Downloads\treeproject\treect\obj\Debug\net10.0\TreeCT.genruntimeconfig.cache
 C:\Users\fomin\Downloads\treeproject\treect\obj\Debug\net10.0\ref\TreeCT.dll
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.AssemblyInfoInputs.cache
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.AssemblyInfo.cs
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.csproj.CoreCompileInputs.cache
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.sourcelink.json
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.dll
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\refint\TreeCT.dll
+C:\Users\fomin\Downloads\sw\c-language-ct-repositry\obj\Debug\net10.0\TreeCT.pdb
