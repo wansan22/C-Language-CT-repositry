@@ -180,7 +180,7 @@ internal class Program
 {
     private static void Main()
     {
-        Console.WriteLine("=== 1. Создание товаров ===");
+
         var laptop = new Product("Ноутбук", 75000.00m, initialStock: 5, category: "Электроника");
         var mouse = new Product("Беспроводная мышь", 1500.50m, initialStock: 10, category: "Аксессуары");
         var coffee = new Product("Зерновой кофе", 800.00m, initialStock: 2, category: "Продукты");
@@ -189,16 +189,15 @@ internal class Program
         Console.WriteLine($"{mouse.Name} (Id: {mouse.Id}): Stock = {mouse.Stock}, Price = {mouse.Price}");
         Console.WriteLine($"{coffee.Name} (Id: {coffee.Id}): Stock = {coffee.Stock}, Price = {coffee.Price}\n");
 
-        Console.WriteLine("=== 2. Создание заказа Draft и добавление позиций ===");
+     
         var order = new Order { Number = "ORD-2026-001" };
         order.AddItem(new OrderItem(laptop, 1));
         order.AddItem(new OrderItem(mouse, 2));
 
-        Console.WriteLine("=== 3. Проверка Total и Summary ===");
+   
         Console.WriteLine($"Total: {order.Total}");
         Console.WriteLine($"Summary: {order.Summary}\n");
 
-        Console.WriteLine("=== 4. Попытка заказать больше остатка (Coffee: запрошено 5, на складе 2) ===");
         try
         {
             order.AddItem(new OrderItem(coffee, 5));
@@ -210,7 +209,6 @@ internal class Program
             Console.WriteLine($"Позиций в заказе по-прежнему: {order.Items.Count}\n");
         }
 
-        Console.WriteLine("=== 5. Подтверждение заказа и попытка добавить позицию ===");
         order.Confirm();
         Console.WriteLine($"Новый статус заказа: {order.Status}");
         try
@@ -222,17 +220,11 @@ internal class Program
             Console.WriteLine($"[Ожидаемая ошибка]: {ex.Message}\n");
         }
 
-        Console.WriteLine("=== 6. Отгрузка (Ship), финальный Summary и остатки ===");
+     
         order.Ship();
         Console.WriteLine($"Финальный Summary: {order.Summary}");
         Console.WriteLine($"Остаток '{laptop.Name}': {laptop.Stock} (было 5)");
         Console.WriteLine($"Остаток '{mouse.Name}': {mouse.Stock} (было 10)\n");
-
-        Console.WriteLine("=== 7. Демонстрация init-only свойств (компилятор блокирует изменения) ===");
-        // Следующие строки вызовут ошибку CS8852 во время компиляции:
-        // laptop.Id = Guid.NewGuid();
-        // order.Number = "ORD-999";
-        // order.CreatedAt = DateTime.UtcNow.AddDays(1);
-        Console.WriteLine("Попытки перезаписи Id, Number и CreatedAt закомментированы — компилятор C# запрещает присваивание (CS8852).");
+ 
     }
 }
