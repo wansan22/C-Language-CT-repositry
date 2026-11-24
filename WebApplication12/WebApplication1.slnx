@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Application/Application.csproj" />
+    <Project Path="Domain/Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/Infrastructure.csproj" Id="2e36c4b0-5af1-4f04-852f-52f199773d62" />
+    <Project Path="Persistence/Persistence.csproj" />
+  </Folder>
+  <Project Path="WebApplication1/WebApi.csproj" />
+</Solution>
